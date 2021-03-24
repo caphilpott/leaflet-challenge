@@ -18,8 +18,10 @@ let myMap = L.map("map", {
     //Define url API link
     let url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
+    // Draw in url data
     d3.json(url).then(function(response)  {
-    
+      
+      //run console log to study the json data
       console.log(response);
              
       // define a features array from the response object
