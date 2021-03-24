@@ -54,6 +54,7 @@ let myMap = L.map("map", {
           color = "#22FE5C";
         }
         
+        // Plot circles capturing and applying color and magnitude/size info
         if(location) {
           L.circle([location.geometry.coordinates[1],location.geometry.coordinates[0]]
             ,{
