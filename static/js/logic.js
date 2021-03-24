@@ -32,7 +32,8 @@ let myMap = L.map("map", {
       //color and size determination
       quakeFeaturesArray.forEach(earthquake => {
         let location = earthquake;
-      
+        
+        //Circler Color by Depth (coordinates[2])
         let color = "";
         if (location.geometry.coordinates[2] > 75) {
           color = "#FF4621";
