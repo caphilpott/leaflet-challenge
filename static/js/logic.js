@@ -55,6 +55,7 @@ let myMap = L.map("map", {
         }
         
         // Plot circles capturing and applying color and magnitude/size info
+        //Bind 5 pop-ups to each data point
         if(location) {
           L.circle([location.geometry.coordinates[1],location.geometry.coordinates[0]]
             ,{
