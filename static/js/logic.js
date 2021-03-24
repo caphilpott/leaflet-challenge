@@ -74,7 +74,7 @@ let myMap = L.map("map", {
      }
       });
  
-          // Set up the legend 
+          // Set up the legend  
         /*Legend specific notation*/
           let legend = L.control({ position: "bottomleft" });
 
