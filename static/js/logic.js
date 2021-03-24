@@ -24,7 +24,7 @@ let myMap = L.map("map", {
       //run console log to study the json data
       console.log(response);
              
-      // define a features array from the response object
+      // define a features array from the response object 
       const quakeFeaturesArray = response.features.map(feat => feat);
       console.log(quakeFeaturesArray);
       
