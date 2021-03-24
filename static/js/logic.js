@@ -24,7 +24,7 @@ let myMap = L.map("map", {
       //run console log to study the json data
       console.log(response);
              
-      // define a features array from the response object 
+      // define a features array from the response object  
       const quakeFeaturesArray = response.features.map(feat => feat);
       console.log(quakeFeaturesArray);
       
@@ -33,7 +33,7 @@ let myMap = L.map("map", {
       quakeFeaturesArray.forEach(earthquake => {
         let location = earthquake;
         
-        //Circler Color by Depth (coordinates[2])  
+        //Circuler Color by Depth (coordinates[2])  
         let color = "";
         if (location.geometry.coordinates[2] > 75) {
           color = "#FF4621";
