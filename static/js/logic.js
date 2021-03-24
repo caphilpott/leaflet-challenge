@@ -15,7 +15,7 @@ let myMap = L.map("map", {
       accessToken: API_KEY
     }).addTo(myMap);
 
-  
+    //Define url API link
     let url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
     d3.json(url).then(function(response)  {
