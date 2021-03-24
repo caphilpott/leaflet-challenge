@@ -19,8 +19,7 @@ Fun assignment!
 
 Watch out for what's shaking!
 
-![alt text]
-(https://poster.keepcalmandposters.com/750319.png)
+![alt text](https://poster.keepcalmandposters.com/750319.png)
 
 
 
