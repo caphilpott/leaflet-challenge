@@ -1,4 +1,4 @@
-// define "myMap"
+// define "myMap" 
 let myMap = L.map("map", {
   center: [40.4531, -111.5234],
   zoom: 5
