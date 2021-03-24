@@ -28,6 +28,8 @@ let myMap = L.map("map", {
       const quakeFeaturesArray = response.features.map(feat => feat);
       console.log(quakeFeaturesArray);
       
+      //Loop through features to capture coordinates and properties for plotting, 
+      //color and size determination
       quakeFeaturesArray.forEach(earthquake => {
         let location = earthquake;
       
